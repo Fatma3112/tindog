@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/*head*/
+.title{
+    background-color: #ff4c68;
+    padding-bottom: 200px;
+}
+.text h1{
+    font-family: 'Montserrat', sans-serif;
+     font-weight: 900;
+     color: aliceblue;
+     line-height: 1.5;
+     size: 3.5rem;
+     margin-bottom: 50px;
+}
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 5% 3% 5% 0 ;
+     margin-bottom: 100px;
+}
+.row{
+    margin-top: 100px;
+}
+.img{
+    
+    transform: rotate(25deg);
+    position: absolute;
+    right: 5px;
+    
+ 
+}
+.z{
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+/*end head*/
+/*navbar*/
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-brand{
+    font-family: "ubuntu" ;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+   font-size: 1.2rem;
+   font-family: "montserrat-light";
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+/*end navbar*/
+/*body*/
+.icon{
+    text-align: center;
+}
+h3{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.icon p{
+ font-size: 16px;
+ color: rgba(0, 0, 0, 0.487);
+}
+.icon i{
+    color: #ef8172;
+    margin-bottom: 30px;
+}
+.icon i:hover{
+    color:#ff4c68 ;
+}
+/*end body*/
+/*corsol*/
+.dog{
+    text-align: center;
+     background-color:#ef8172 ;
+     color: aliceblue;
+     margin-top: 60px;
+     
+     
+  
+}
+
+.dog img{
+ width: 15%;
+ border-radius: 100%;
+  margin: 20px;
+}
+.dog h2{
+    font-family: "montserrat";
+    font-size: 2rem;
+    font-weight: bold;
+     line-height: 1.5;
+}
+.pages .press{
+  width: 15%;
+ 
+  margin:20px 20px 50px ; 
+    
+
+}
+.pages{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*end corsol*/
+/*cards*/
+.card{
+  
+  margin-bottom: 40px;
+
+}
+.pricing{
+    padding: 0 100px;
+    text-align: center;
+    
+}
+.pricing h2{
+    font-weight: bold;
+    font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*end cards*/
+
+@media (max-width: 770px){
+    .title .img{
+        position: static;
+        transform:rotate(0);
+    }
+    .title{
+        text-align: center;
+    }
+}
+
+.foot{
+     background-color: #ff4c68;
+     padding: 7% 15% ;
+     text-align: center;
+}
+.foot h3{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+.foot button{
+    padding: 10px 30px;
+    
+   }
+   .footer{
+       background-color: white;
+       text-align: center;
+       padding: 60px;    
+   }
+   .footer a{
+       margin-left: 30px;
+       color: black;
+   }
+   .footer p{
+       margin-top: 30px;
+       color: rgba(0, 0, 0, 0.507);
+   }
+   .footer strong a{
+       color: #ef8172;
+       text-decoration: none;
+   }
+
